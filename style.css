@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+
+.background {
+    background-color: rgb(2, 76, 142);
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(249, 249, 249);
+    text-align: center;
+}
+
+.botao {
+    border-radius: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:hover.botao {
+    background-color: black;
+    color: white;
+}
